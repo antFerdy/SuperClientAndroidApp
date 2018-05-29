@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:id="@+id/videoFeedbackLayout"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/videoFeedback"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Оставьте комментарий или видео отзыв"
+        android:id="@+id/textView5"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startVideoRec"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:textSize="20dp" />
+
+    <!--<EditText-->
+        <!--android:layout_width="700dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:inputType="textMultiLine"-->
+        <!--android:ems="10"-->
+        <!--android:id="@+id/feedbackField"-->
+        <!--android:layout_weight="0.36"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:focusable="true" />-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оставить комментарий"
+        android:id="@+id/leaveCommentBtn"
+        android:layout_gravity="center_horizontal"
+        android:onClick="leaveComment"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelVideoRec"
+        android:id="@+id/btnFeedbackCancel"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

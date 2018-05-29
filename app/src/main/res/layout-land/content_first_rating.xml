@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/secondQuestion"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+    <zhur.myapplication.RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        android:layout_gravity="center_horizontal"
+        hedgehog:halfstart="false"
+        hedgehog:starCount="5"
+        hedgehog:starEmpty="@drawable/starempty"
+        hedgehog:starFill="@drawable/starfill"
+
+        hedgehog:starImageHeight="100dp"
+        hedgehog:starImageWidth="100dp"
+        hedgehog:starImagePadding="50dp" />
+
+</LinearLayout>

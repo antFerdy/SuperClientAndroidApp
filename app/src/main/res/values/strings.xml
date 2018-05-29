@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">СуперКлиент</string>
+
+
+    //activity titles
+    <string name="title_activity_first_rating"></string>
+    <string name="title_activity_second_rating"></string>
+    <string name="title_activity_video_feedback">Вы можете оставить свой видео отзыв</string>
+    <string name="title_activity_login">СуперКлиент</string>
+
+    //textview titles
+    <string name="firstQuestion">Насколько вероятно, что Вы порекомендуете нас другу или коллеге?</string>
+    <string name="secondQuestion">Оцените нашу работу</string>
+    <!--<string name="videoFeedbackIfNotMax">Что нам нужно изменить чтобы Вы поставили нам наивысшую оценку ?</string>-->
+    <string name="videoFeedback">Что нам нужно улучшить, чтобы Вы оценили нашу работу на пять с плюсом?</string>
+
+    <string name="thirdQuestion">Помогите нам повысить уровень сервиса, оставьте номер телефона для обратной связи</string>
+    <string name="finalThanks">Спасибо за ваши оценки и отзыв!</string>
+
+    //button titles
+    <string name="startVideoRec">Записать видео отзыв</string>
+    <string name="cancelVideoRec">Пропустить</string>
+    <string name="title_activity_thanks"></string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+</resources>
